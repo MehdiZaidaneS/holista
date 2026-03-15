@@ -1,0 +1,21 @@
+:root {
+  --highlight-color: rgb(224, 224, 224);
+  --highlight-border-radius: 8px;
+  --_typography---paragraphs--sm-body: 14px;
+  --_fonts---line-height--100: 100%;
+  --_fonts---font-weight--medium: 500;
+  --_colors-plates---primary: #141414;
+  --_p_font-size: 18px;
+  --_p_line-height: 1.5;
+  --_p_color: rgb(73,72,82);;
+  --_p_font-weight: 500;
+  --black-button-background: black;
+  --black-button-color: white;
+  --black-button-font-padding: 15px 30px;
+  --black-button-font-size: 17px;
+  --black-button-border: none;
+  --black-button-border-radius: 8px;
+  --black-button-cursor: pointer;
+ 
+}
+

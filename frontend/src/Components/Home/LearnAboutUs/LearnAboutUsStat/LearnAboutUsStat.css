@@ -1,0 +1,27 @@
+.learnAboutUsStat{
+    background-color: var( --highlight-color);
+    display: flex;
+    width: fit-content;
+    padding: 20px;
+    border-radius: var(--highlight-border-radius);
+}
+
+.learn-about-us-info{
+   margin-left: 20px;
+}
+
+.learn-about-us-info h2{
+    margin: 0;
+    font-size: 40px;
+}
+
+.learn-about-us-info p{
+    font-size: var(--_p_font-size);
+    line-height: var(--_p_line-height);
+    color: var(--_p_color);
+    font-weight: var(--_p_font-weight);
+    width: 95%;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed gray;
+}
