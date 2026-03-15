@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* spreads logo, links, contact evenly */
+    border-bottom: 1px rgba(0, 0, 0, 0.308) dashed;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar-logo{
+  width: 25%;
+  text-align: right;
+ 
+
+}
+
+.links {
+    display: flex;
+    gap: 50px; /* space between each link */
+    width: 50%;
+    justify-content: center; /* centers the links within the middle section */
+    
+}
+
+.links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.contactNumber {
+    width: 25%;
+    text-align: left;
+   
+}
+
+.contactNumber p {
+    margin: 0;
+    line-height: 1.2;
+}

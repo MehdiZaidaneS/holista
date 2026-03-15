@@ -1,0 +1,49 @@
+.titlePage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    height: 100vh;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+#titlePageText{
+  padding: 40px;
+}
+
+#titlePageText h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    
+}
+
+
+#titlePageText p{
+    font-size: 18px;
+    line-height: 1.5;
+    width: 85%;
+    color: rgb(73,72,82);
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+#titlePageText button{
+    padding: 15px 30px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#highlight{
+    background-color: rgb(236, 236, 236);
+    padding: 8px;    
+    width: fit-content;
+  
+}
+
