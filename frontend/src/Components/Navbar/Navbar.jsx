@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from '../Home/Home';
 import Contact from '../Contact/Contact';
 import AboutUs from '../AboutUs/AboutUs';
-import Services from '../Services/Services';
 import './Navbar.css'
+import ServicesPage from '../Services/ServicesPage';
 
 
 function Navbar() {
@@ -27,7 +27,7 @@ function Navbar() {
             </nav>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/services" element={<Services />} />
+                <Route path="/services" element={<ServicesPage />} />
                 <Route path="/about-us" element={<AboutUs />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>

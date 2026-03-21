@@ -1,0 +1,38 @@
+.servicesTitlePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: 100vh;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+.servicesTitlePage h1{
+    font-size: 150px;
+    margin-bottom: 0px;
+}
+
+
+.servicesTitlePage p{
+font-size : 20px;
+line-height:  var(--_p_line-height);
+color: var(--_p_color);
+font-weight: var( --_p_font-weight);
+}
+
+.servicesTitlePage button{
+    background-color: orangered;
+    color: var(--black-button-color);
+    padding: var(--black-button-font-padding);
+    font-size: var(--black-button-font-size);
+    border:var( --black-button-border) ;
+    border-radius: var(--black-button-border-radius);
+
+}
+
+.servicesTitlePage button:hover{
+    cursor: pointer;
+}

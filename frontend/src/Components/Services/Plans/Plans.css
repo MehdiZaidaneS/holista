@@ -1,0 +1,58 @@
+.plansContainer{
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.plans{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+.plansContainerSubtitle{
+    grid-column-gap: 4px;
+    background-color: var(--highlight-color);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 6px;
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+   
+}
+
+.plansContainerSubtitle p{
+    color: var(--_colors-plates---primary);
+    font-size: var(--_typography---paragraphs--sm-body);
+    line-height: var(--_fonts---line-height--100);
+    font-weight: var(--_fonts---font-weight--medium);
+    margin: 0;
+}
+
+
+.plansContainerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.plansContainerTitle h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.plansContainerTitle p{
+    font-size: var(--_p_font-size);
+    line-height: var(--_p_line-height);
+    color: var(--_p_color);
+    margin-bottom: 50px;
+    font-weight: var(--_p_font-weight);
+}

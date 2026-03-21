@@ -1,0 +1,24 @@
+.benefit-card-info{
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.233);
+}
+
+
+.benefit-card-title{
+    display: flex;
+}
+
+.benefit-card-title h4{
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+
+.benefit-card-description p{
+    margin-top: 0px;
+    margin-bottom: 33.250px;
+    font-size: var(--_p_font-size);
+    line-height: var(--_p_line-height);
+    color: rgba(255, 255, 255, 0.616);
+    font-weight: var(--_p_font-weight);
+}

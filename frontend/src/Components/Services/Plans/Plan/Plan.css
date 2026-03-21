@@ -1,0 +1,82 @@
+.planContainer {
+    width: fit-content;
+    color: white;
+    border: 1px solid black;
+}
+
+.planContainer:hover {
+    box-shadow: 0 8px 25px rgb(107, 107, 107);
+}
+
+.planContainerInfo {
+    background-color: orangered;
+    padding: 30px;
+    display: flex;
+}
+
+.title {
+    width: 60%;
+    font-size: var(--_p_font-size);
+    line-height: var(--_p_line-height);
+    font-weight: var(--_p_font-weight);
+}
+
+.title p {
+    margin-left: 0px;
+}
+
+.price {
+    width: 40%;
+}
+
+.price p {
+    margin-bottom: 0px;
+    text-align: right;
+    font-size: 22px;
+    line-height: var(--_p_line-height);
+    font-weight: var(--_p_font-weight);
+}
+
+.planContainerIncluded {
+    background-color: black;
+    padding: 30px;
+
+}
+
+
+.planContainerIncluded h4 {
+    margin-top: 0px;
+}
+
+.planContainer li {
+    display: flex;
+    align-items: start;
+    width: 80%;
+    padding-bottom: 25px;
+}
+
+.planContainerIncluded p {
+    align-items: start;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+
+.included {
+    display: flex;
+    justify-content: space-between
+}
+
+.bookACall {
+    background-color: orangered;
+    color: var(--black-button-color);
+    padding: var(--black-button-font-padding);
+    font-size: var(--black-button-font-size);
+    border: var(--black-button-border);
+    border-radius: var(--black-button-border-radius);
+    margin-top: 20px;
+}
+
+.bookACall:hover {
+    cursor: pointer;
+}
