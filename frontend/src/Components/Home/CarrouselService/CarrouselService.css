@@ -1,0 +1,43 @@
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel {
+
+    display: flex;
+    overflow-x: auto;
+    background-color: var(--_colors-plates---primary);
+    padding: 20px;
+    align-items: center;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: scroll 100s linear infinite;
+    padding-right: 1em;
+}
+
+.item {
+    flex: 0 0 auto;
+    width: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.281);
+    padding: 20px 10px 20px 10px;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

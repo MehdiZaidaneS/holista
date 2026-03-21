@@ -1,0 +1,103 @@
+.testimonialContainer {
+    padding-top: 110px;
+    padding-bottom: 110px;
+
+}
+
+
+.testimonialInfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.testimonialInfoSubtitle {
+    grid-column-gap: 4px;
+    background-color: var(--highlight-color);
+    border-radius: 4px;
+    align-items: center;
+    padding: 4px 6px;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0;
+
+}
+
+.testimonialInfoSubtitle p {
+    color: var(--_colors-plates---primary);
+    font-size: var(--_typography---paragraphs--sm-body);
+    line-height: var(--_fonts---line-height--100);
+    font-weight: var(--_fonts---font-weight--medium);
+    margin: 0;
+}
+
+
+.testimonialInfoTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.testimonialInfoTitle h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.testimonialInfoTitle p {
+    width: 70%;
+    font-size: var(--_p_font-size);
+    line-height: var(--_p_line-height);
+    color: var(--_p_color);
+    font-weight: var(--_p_font-weight);
+}
+
+
+
+
+
+.testimonialCarousel {
+    margin-top: 30px;
+    display: flex;
+    overflow-x: hidden;
+    /* hides scrollbar if using animation */
+}
+
+.testimonialCarousel::-webkit-scrollbar {
+    display: none;
+}
+
+.groupTestimonial {
+    display: flex;
+    gap: 1em;
+}
+
+.groupTestimonial {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    animation: scroll 30s linear infinite;
+    padding-right: 1em;
+    justify-content: flex-start;
+    /* keep cards aligned left */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

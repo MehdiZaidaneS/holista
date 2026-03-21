@@ -1,0 +1,54 @@
+
+.serviceContainer:not(:last-child){
+   border-bottom: 1px solid rgba(255, 255, 255, 0.233);
+}
+
+.serviceTitle{
+    display: flex;
+    align-items: top;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.serviceTitle p{
+    color: var(--_p_color);
+    font-size: 20px;
+    line-height: var(--_p_line-height);
+    font-weight: 600;
+}
+
+.serviceTitle h1{
+    margin: 13px;
+    font-size: 50px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.serviceDescription p{
+    font-size: var(--_p_font-size);
+    line-height: var(--_p_line-height);
+    color: white;
+    font-weight: var(--_p_font-weight);
+    margin: 0px;
+}
+
+.serviceDescription{
+     max-height: 0;
+    overflow: hidden;
+    margin-top: -10px;
+    transition: max-height 0.5s ease-out;
+    margin-bottom: 30px;
+}
+
+.serviceContainer:hover .serviceTitle h1{
+    color: rgba(255, 68, 0, 0.938);
+} 
+
+.serviceContainer:hover .serviceTitle p{
+    color: rgba(255, 91, 31, 0.473);
+}
+
+.serviceContainer:hover .serviceDescription {
+     max-height: 200px;
+     cursor: pointer;
+}

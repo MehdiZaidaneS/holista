@@ -1,0 +1,31 @@
+.testimonialCardContainer{
+    background-color: rgba(236, 235, 235, 0.63);
+    width: 25%;
+    min-width: 25%;    /* prevents shrinking */
+    max-width: 25%;    /* prevents growing */
+    padding: 30px;
+    
+     box-sizing: border-box; /* ensures padding doesn't add extra width */
+}
+
+.clientInfo{
+    border-top:  1px dashed rgb(204, 204, 204);
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.clientInfo img{
+    padding: 5px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 100%;
+}
+
+.feedback{
+    font-size: var(--_p_font-size);
+    line-height: var(--_p_line-height);
+    color: var(--_p_color);
+    font-weight: var(--_p_font-weight); 
+}

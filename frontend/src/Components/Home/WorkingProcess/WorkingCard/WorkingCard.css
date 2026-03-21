@@ -1,0 +1,32 @@
+.workingCard{
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    border-radius: 5%;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.678);
+    margin-bottom: 20px;
+}
+
+.workingCardIcon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.workingCardIcon p{
+    font-size: 50px;
+    line-height: var(--_p_line-height);
+    color: rgb(199, 199, 199);
+    font-weight: 500;
+    margin: 0;
+  
+}
+
+.workingCardInfo h3{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.workingCardInfo p{
+    font-size: var(--_p_font-size);
+    line-height: var(--_p_line-height);
+    color: var(--_p_color);
+}

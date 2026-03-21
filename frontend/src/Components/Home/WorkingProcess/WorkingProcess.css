@@ -1,0 +1,68 @@
+.workingProcessContainer
+{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+
+.workingProcessInfo
+{
+    width: 50%;
+    margin: 0
+}
+
+.workingProcessCards{
+    width: 45%;
+    margin-left: auto;
+    
+}
+
+
+.workingProcessInfoSubtitle{
+    grid-column-gap: 4px;
+    background-color: var(--highlight-color);
+    border-radius: 4px;
+    align-items: center;
+    padding: 4px 6px;
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    margin: 0;
+   
+}
+
+.workingProcessInfoSubtitle p{
+    color: var(--_colors-plates---primary);
+    font-size: var(--_typography---paragraphs--sm-body);
+    line-height: var(--_fonts---line-height--100);
+    font-weight: var(--_fonts---font-weight--medium);
+    margin: 0;
+}
+
+
+.workingProcessInfoTitle{
+ 
+    align-items: center;
+    text-align: left;
+    margin: 30px 0 0 0; /* remove auto centering */
+    width: 100%;
+    margin: 0;
+}
+
+.workingProcessInfoTitle h2{
+    font-size: 50px;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.workingProcessInfoTitle p{
+    font-size: var(--_p_font-size);
+    line-height: var(--_p_line-height);
+    color: var(--_p_color);
+    margin-bottom: 50px;
+    font-weight: var(--_p_font-weight);
+}
