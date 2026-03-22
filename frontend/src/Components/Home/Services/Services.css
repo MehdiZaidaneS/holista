@@ -1,6 +1,7 @@
 .servicesContainer{
     background-color: var(--_colors-plates---primary);
     color: white;
+    margin-top: 50px;
     padding-top: 110px;
     padding-bottom: 110px;
 }
